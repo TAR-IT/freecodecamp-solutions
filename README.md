@@ -1,5 +1,7 @@
 # freeCodeCamp Solutions
-These are my solutions to the freeCodeCamp Problems. This repository is for archive-purposes only. Keep in mind, tho: Copy & paste won't get you far.
+These are my solutions to the freeCodeCamp Problems. Every folder contains the solution to the final (certificate-relevant) project of the course.
+
+This repository is for archive-purposes only.
 
 ## Table of Contents
 1. [Responsive Web Design](/responsive-web-design)
