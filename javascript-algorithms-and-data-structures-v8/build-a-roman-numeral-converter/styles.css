@@ -1,0 +1,44 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f9f3e6;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #8b4513;
+  }
+  
+  #text-input {
+    padding: 10px;
+    margin: 20px 0;
+    width: 80%;
+    border: 2px solid #8b4513;
+    border-radius: 5px;
+  }
+  
+  #check-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #8b4513;
+    color: #f9f3e6;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #check-btn:hover {
+    background-color: #6b3011;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #8b4513;
+  }
+  
+  

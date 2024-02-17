@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="search-input" class="pokemon-input" placeholder="Enter Pokémon name or ID" required>
+        <button id="search-button" class="pokemon-button">Search</button>
+        <div id="pokemon-details" class="pokemon-details">
+            <div>
+                <label for="pokemon-name" class="pokemon-label">Pokemon Name:</label>
+                <div id="pokemon-name" class="pokemon-name"></div>
+            </div>
+            <div>
+                <label for="pokemon-id" class="pokemon-label">Pokemon ID:</label>
+                <div id="pokemon-id" class="pokemon-id"></div>
+            </div>
+            <div>
+                <label for="weight" class="pokemon-label">Weight:</label>
+                <div id="weight" class="pokemon-weight"></div>
+            </div>
+            <div>
+                <label for="height" class="pokemon-label">Height:</label>
+                <div id="height" class="pokemon-height"></div>
+            </div>
+            <div>
+                <label for="types" class="pokemon-label">Types:</label>
+                <div id="types" class="pokemon-types"></div>
+            </div>
+            <div id="stats" class="pokemon-stats">
+                <div>
+                    <label for="hp" class="pokemon-label">HP:</label>
+                    <div id="hp" class="pokemon-hp"></div>
+                </div>
+                <div>
+                    <label for="attack" class="pokemon-label">Attack:</label>
+                    <div id="attack" class="pokemon-attack"></div>
+                </div>
+                <div>
+                    <label for="defense" class="pokemon-label">Defense:</label>
+                    <div id="defense" class="pokemon-defense"></div>
+                </div>
+                <div>
+                    <label for="special-attack" class="pokemon-label">Special Attack:</label>
+                    <div id="special-attack" class="pokemon-special-attack"></div>
+                </div>
+                <div>
+                    <label for="special-defense" class="pokemon-label">Special Defense:</label>
+                    <div id="special-defense" class="pokemon-special-defense"></div>
+                </div>
+                <div>
+                    <label for="speed" class="pokemon-label">Speed:</label>
+                    <div id="speed" class="pokemon-speed"></div>
+                </div>
+            </div>
+            <div id="sprite-container" class="pokemon-sprite-container">
+                <label for="sprite" class="pokemon-label">Sprite:</label>
+                <img id="sprite" class="pokemon-sprite" src="" alt="Pokémon Sprite">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
